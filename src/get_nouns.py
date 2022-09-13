@@ -40,7 +40,7 @@ def main(tlang):
     # list of nouns with disambiguation page (chosen based on the order of the translation list)
     dis_nouns = []
 
-    for k in list(nouns.keys())[:10]:
+    for k in list(nouns.keys()):
         if wiki_wiki.page(str('%s (disambiguation)'%k.lower())).exists():
             dis_nouns.append(k)
 
