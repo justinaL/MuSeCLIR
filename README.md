@@ -13,7 +13,12 @@ This repository is for reproducing MuSeCLIR. Ground-truth bilingual dictionaries
 
 
 ### How to use
+Download the ground-truth bilingual dictionaries with:
+```sh
+cd data/
+./get_evaluation.sh
+```
 By changing the [language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of the `target_lang` argument, users can re-produce MuSeCLIR in other language pairs. 
 ```sh
-$ python main.py --target_lang zh
+python main.py --target_lang zh
 ```
