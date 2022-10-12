@@ -2,6 +2,24 @@
 
 Wing Yan Li, Julie Weeds, David Weir. *MuSeCLIR: A Multiple Senses and Cross-lingual Information Retrieval dataset.* COLING 2022 (short).
 
+Paper at: [https://aclanthology.org/2022.coling-1.96/](https://aclanthology.org/2022.coling-1.96/)
+
+If you use MuSeCLIR fr your work, please cite as: 
+```
+@inproceedings{li-etal-2022-museclir,
+    title = "{M}u{S}e{CLIR}: A Multiple Senses and Cross-lingual Information Retrieval Dataset",
+    author = "Li, Wing Yan  and Weeds, Julie  and Weir, David",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.96",
+    pages = "1128--1135"
+}
+```
+
+
 This repository is for reproducing MuSeCLIR. Ground-truth bilingual dictionaries are cloned from the original [MUSE](https://github.com/facebookresearch/MUSE) repository.
 
 
